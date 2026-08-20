@@ -16,7 +16,7 @@ Additional focused suites cover gateway, protected-service, integration and dura
 
 ## Current engineering focus
 
-Current private engineering work is focused on durable protected-business state, restart-safe execution outcomes, capacity/reconciliation consistency, cross-process durability and controlled failure recovery.
+Current private engineering work is focused on durable protected execution across concurrency, restart and controlled failure scenarios.
 
 ## Explicit limits
 

@@ -8,6 +8,8 @@ This document intentionally describes Mindchain / VectorRail at a **high level**
 
 A model, agent or machine may determine that an action is useful or desirable. VectorRail treats the authority to execute that action as a separate concern.
 
+> **VectorRail is not another agent communication protocol. It is intended to sit between the intent to act and the protected execution of that action.**
+
 ## Conceptual lifecycle
 
 ```text
@@ -23,6 +25,53 @@ Protected Execution
   ↓
 Evidence
 ```
+
+## Conceptual position in a typical stack
+
+```text
+AI Model / Agent
+       |
+       | proposes an action
+       v
+Application / Orchestrator
+       |
+       | execution request
+       v
++------------------------------+
+|       VectorRail Boundary    |
+|                              |
+|     Authority + Policy       |
+|            |                 |
+|       Authorization          |
+|            |                 |
+|         Admission            |
++-------------+----------------+
+              |
+              | admitted protected action
+              v
+       Protected Service
+              |
+              v
+           Evidence
+```
+
+| Layer | Primary role |
+| --- | --- |
+| AI model / agent | Decides or proposes what to do |
+| Application / orchestrator | Coordinates workflow and requests actions |
+| MCP / A2A / tool protocols | Enable communication, interoperability and tool invocation |
+| IAM / identity systems | Establish who or what is authenticated |
+| VectorRail | Governs whether a specific protected action may be authorized and admitted to execution |
+| Protected service | Performs the protected action |
+| Payment / settlement systems | Handle any resulting economic transfer or settlement |
+
+## Abstract example
+
+- An agent proposes a protected action.
+- The surrounding application submits the request.
+- VectorRail evaluates whether that action may be authorized and admitted under the applicable authority and policy context.
+- Only an admitted action reaches protected execution.
+- Resulting evidence remains distinct from the authorization decision.
 
 ## Core separation principles
 

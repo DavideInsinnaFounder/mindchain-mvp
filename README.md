@@ -16,6 +16,23 @@ The design is intended to remain model-agnostic, hardware-agnostic, protocol-agn
 
 Mindchain is not an AI model, a blockchain, a payment rail or a replacement for existing agent communication standards.
 
+## Where VectorRail fits
+
+A surrounding technology stack may already contain:
+
+- AI models / agents
+- application / orchestration logic
+- IAM / identity systems
+- MCP / A2A / tool protocols
+- protected services
+- payment / settlement systems
+
+VectorRail focuses on the question:
+
+> **Should this specific protected action be authorized and admitted to execution?**
+
+VectorRail is intended to sit between the intent to act and the protected execution of that action.
+
 ## Current public validation status
 
 **960 deterministic lifecycle tests — PASS**
