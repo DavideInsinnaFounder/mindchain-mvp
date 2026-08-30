@@ -37,8 +37,24 @@ The established public `mindchain-mvp` URL was retained as a deliberately saniti
 > **Public: results, principles and project credibility.**  
 > **Private: implementation method and proprietary engineering know-how.**
 
+### August 2026 — Token architecture progression
+The architecture-only Token track progressed through four major public-safe milestones:
+
+- T1 — Token Architecture Gate: closed;
+- T1.5 — Token Architecture Convergence Gate: closed;
+- T2 — Economic Lifecycle Architecture: closed;
+- T3 — Wallet and Balance Authority Architecture: closed.
+
+T4 subsequently entered formalization and adversarial validation. This work remains pre-implementation and is intended to prove deterministic authority, accounting and handoff boundaries before any implementation is authorized.
+
+Detailed T4 transition mechanics, formal-kernel definitions and review findings remain in the private engineering repository.
+
+See [Token Architecture Status](TOKEN_ARCHITECTURE_STATUS.md).
+
 ## Current direction
 
 Mindchain remains the experimental engineering foundation behind the broader VectorRail architecture.
+
+Current work continues on durable execution guarantees and formal economic/accounting architecture validation. The system remains experimental and non-production.
 
 Website: https://www.vectorrail.cloud/
