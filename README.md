@@ -57,6 +57,12 @@ This repository shows **what has been built and validated** without publishing t
 
 It intentionally excludes the production-oriented core implementation, exhaustive test suites, database internals, failure-injection mechanisms, detailed security architecture and internal engineering context.
 
+## External Review Room
+
+Independent reviewers and selected external developers can use the bounded [External Review Room](external-review/README.md).
+
+Each review package declares its frozen source identity, scope, limitations and disclosure boundary. Access to material published there does not imply access to the private VectorRail engineering repository.
+
 ## Status
 
 Mindchain / VectorRail remains an **experimental, non-production system** under active development.
