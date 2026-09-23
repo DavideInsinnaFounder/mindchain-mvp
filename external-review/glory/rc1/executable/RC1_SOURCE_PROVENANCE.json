@@ -1,0 +1,170 @@
+{
+  "artifact": "GLORY_CRM_DISCOUNT_POC_V1_2_RC1_SOURCE_PROVENANCE",
+  "material_classification": "EXPORT-ONLY / NON-RC1 SEMANTIC MATERIAL",
+  "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+  "substantive_file_count": 20,
+  "all_substantive_source_byte_identical": true,
+  "substantive_source_byte_provenance": "PASS",
+  "records": [
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "docs/poc/glory/GLORY_POC_RUNBOOK.md",
+      "source_git_blob_sha": "5bdd55d3f36772fcf7b2571ad3a4ecc6d7cb5356",
+      "export_path": "docs/poc/glory/GLORY_POC_RUNBOOK.md",
+      "export_sha256": "147557c2fee179e2d31cf0e8620a70a6b4b0e73f6c4ba895fd3e6b044f6ceb43",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/atomic_admission.ts",
+      "source_git_blob_sha": "e762f95ca1d24444275a31b4e81ef1c0bca17ed5",
+      "export_path": "src/core/atomic_admission.ts",
+      "export_sha256": "653cca238b7d3803ae81569e6ee9a4768f1528468f3d271280f16ac81c227d3b",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "export_sha256": "84195327a4b48700362075d0f6a0393f707c32597e0bd30806749a9421234782",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/authorization_proof_issuance.ts",
+      "source_git_blob_sha": "44111daa65d305eed0bab403eb6578b320a808b8",
+      "export_path": "src/core/authorization_proof_issuance.ts",
+      "export_sha256": "f9412002bca9e2c18528ef5dbb2354f69e93223fac4b9f8e9aa2917d2a11c5a7",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/authorization_proof_usage.ts",
+      "source_git_blob_sha": "c173fbd37c82db49d419d17f3f78e72a399a4a1f",
+      "export_path": "src/core/authorization_proof_usage.ts",
+      "export_sha256": "ab6a4e7cffc6da0ec9d940f3e587673737a2818ba737da13b9f254948d8a48c1",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "export_sha256": "e3b387b6e81fd585e50a96f2ba4d4329f2eafafcb215839fc36c0f4453bb15fc",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "export_sha256": "1caaa7fc9874f85a2169b276c7f06c639bf0d93d61f84189c4e169cc3b2e546d",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/core/spending_envelope.ts",
+      "source_git_blob_sha": "99d12bc3e543ce23dcdf3906f946eb780ae8f8d9",
+      "export_path": "src/core/spending_envelope.ts",
+      "export_sha256": "111917d427030ff0e0963aac873ccf89382fadc011b83e33c3db7dc5d29b9146",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "export_sha256": "ce6a6aefd2effe53f03943bfb1b6b7a00137de61bcedf44daeacdc648b4da823",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "export_sha256": "84aa6997b28e35660472abfa132a712db160264d1f0843aa2ac96ee92c132e93",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/cli.ts",
+      "source_git_blob_sha": "80652fa2f44f098ee65d804ae9df8b760f146241",
+      "export_path": "src/poc/glory/cli.ts",
+      "export_sha256": "cfccc0e1b159e1a55027d07f9fb79f8c470f5db156a8f25a58f779bedc29832b",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "export_sha256": "52e3fb034d8f17282a024b29e0573883c698016df53b8d7cce6cf3d7ada999c1",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/poc.ts",
+      "source_git_blob_sha": "eb2a713a4fb3cc80eb253f6b8b8d231140b05fa8",
+      "export_path": "src/poc/glory/poc.ts",
+      "export_sha256": "29de77bd4c31e9f611c2d0f287d81fad40ee1bba9ee80bef838220582356bc84",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "export_sha256": "d5d9bfa7a538c775b458231ffaa58e1161b88f7fdc875143f7238fb15765dbe9",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "src/poc/glory/simulated_crm.ts",
+      "source_git_blob_sha": "5ea94a656f85a773fe6664d4a11efd3ff7dbee1a",
+      "export_path": "src/poc/glory/simulated_crm.ts",
+      "export_sha256": "b41ea479a4fc754bf8eadc2ee5d6cb5f61e0ebfd3843aa4f58eb3eba41923283",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "tests/poc/glory/glory-acceptance.test.ts",
+      "source_git_blob_sha": "0d5ad6683379a27bfc3ee379af666655dae35d00",
+      "export_path": "tests/poc/glory/glory-acceptance.test.ts",
+      "export_sha256": "ed38dc199bbbd5ba66bf05d8ad57f46688e4aba7e758e0da589e4f0a74b828ca",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "tests/poc/glory/glory-authorization.test.ts",
+      "source_git_blob_sha": "bdde1985a2ff9ad2d2fe452d494415c330cf46fb",
+      "export_path": "tests/poc/glory/glory-authorization.test.ts",
+      "export_sha256": "dca1a284a3edd1f7e83f014238ed61a7cc88ca45518cdfad37a805c20b30b57d",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "source_git_blob_sha": "9ff6aa447bee1e0b607dc00be5dccd0c520be63b",
+      "export_path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "export_sha256": "e94b82748def40c8e7afc03081dc7971b9b68ac2091a7cad35e6ce7ebbf1512d",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "source_git_blob_sha": "3ce80da183abbc4077dcd8a7a9e7fdf1b0880c93",
+      "export_path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "export_sha256": "41433f97efead23c3bcad6a802e17bf961383ac35fefc1fab4b98cda9e7a8f9b",
+      "byte_identical": true
+    },
+    {
+      "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+      "source_path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "source_git_blob_sha": "44e8f5522d121776c3e2b6e2798a555786f82484",
+      "export_path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "export_sha256": "23f04756025583490a21ef653723220ea8ffb007fe0c2b303046d501e8f9e228",
+      "byte_identical": true
+    }
+  ]
+}

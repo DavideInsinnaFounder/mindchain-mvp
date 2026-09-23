@@ -1,0 +1,22 @@
+{
+  "name": "vectorrail-glory-crm-discount-poc-v1-2-rc1-export",
+  "version": "1.2.0-rc1",
+  "private": true,
+  "description": "Export-only bounded executable package for Glory CRM Discount POC V1.2 RC1 review",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test:glory": "node --import tsx --test tests/poc/glory/*.test.ts",
+    "poc:glory": "node --import tsx src/poc/glory/cli.ts"
+  },
+  "devDependencies": {
+    "tsx": "4.21.0"
+  },
+  "overrides": {
+    "esbuild": "0.27.7",
+    "get-tsconfig": "4.13.7",
+    "resolve-pkg-maps": "1.0.0"
+  }
+}

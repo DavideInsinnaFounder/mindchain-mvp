@@ -1,0 +1,937 @@
+{
+  "artifact": "GLORY_CRM_DISCOUNT_POC_V1_2_RC1_DEPENDENCY_CLOSURE",
+  "material_classification": "EXPORT-ONLY / NON-RC1 SEMANTIC MATERIAL",
+  "source_commit": "2606358ab9a591b67f047a3b9a84032d2b5ffc9e",
+  "derivation": "Recursive static import traversal from all Glory implementation, test, and CLI roots; .js specifiers resolve to frozen .ts source files.",
+  "dependency_closure": "VERIFIED",
+  "unresolved_internal_dependencies": 0,
+  "summary": {
+    "root_internal_files": 12,
+    "source_closure_files": 19,
+    "transitive_internal_dependency_files": 7,
+    "internal_import_edges": 55,
+    "node_builtin_import_edges": 14,
+    "direct_npm_dependencies": 1,
+    "locked_npm_package_entries": 31
+  },
+  "roots": [
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/cli.ts",
+      "source_git_blob_sha": "80652fa2f44f098ee65d804ae9df8b760f146241",
+      "export_path": "src/poc/glory/cli.ts",
+      "reason_required": "Frozen Glory CLI root required for adversarial executable review."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/poc.ts",
+      "source_git_blob_sha": "eb2a713a4fb3cc80eb253f6b8b8d231140b05fa8",
+      "export_path": "src/poc/glory/poc.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/simulated_crm.ts",
+      "source_git_blob_sha": "5ea94a656f85a773fe6664d4a11efd3ff7dbee1a",
+      "export_path": "src/poc/glory/simulated_crm.ts",
+      "reason_required": "Frozen Glory implementation root required to execute RC1."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "tests/poc/glory/glory-acceptance.test.ts",
+      "source_git_blob_sha": "0d5ad6683379a27bfc3ee379af666655dae35d00",
+      "export_path": "tests/poc/glory/glory-acceptance.test.ts",
+      "reason_required": "Frozen Glory test root required to reproduce and falsify RC1 behavior."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "tests/poc/glory/glory-authorization.test.ts",
+      "source_git_blob_sha": "bdde1985a2ff9ad2d2fe452d494415c330cf46fb",
+      "export_path": "tests/poc/glory/glory-authorization.test.ts",
+      "reason_required": "Frozen Glory test root required to reproduce and falsify RC1 behavior."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "source_git_blob_sha": "9ff6aa447bee1e0b607dc00be5dccd0c520be63b",
+      "export_path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "reason_required": "Frozen Glory test root required to reproduce and falsify RC1 behavior."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "source_git_blob_sha": "3ce80da183abbc4077dcd8a7a9e7fdf1b0880c93",
+      "export_path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "reason_required": "Frozen Glory test root required to reproduce and falsify RC1 behavior."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "source_git_blob_sha": "44e8f5522d121776c3e2b6e2798a555786f82484",
+      "export_path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "reason_required": "Frozen Glory test root required to reproduce and falsify RC1 behavior."
+    }
+  ],
+  "transitive_internal_files": [
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/atomic_admission.ts",
+      "source_git_blob_sha": "e762f95ca1d24444275a31b4e81ef1c0bca17ed5",
+      "export_path": "src/core/atomic_admission.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_issuance.ts",
+      "source_git_blob_sha": "44111daa65d305eed0bab403eb6578b320a808b8",
+      "export_path": "src/core/authorization_proof_issuance.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_usage.ts",
+      "source_git_blob_sha": "c173fbd37c82db49d419d17f3f78e72a399a4a1f",
+      "export_path": "src/core/authorization_proof_usage.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    },
+    {
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/spending_envelope.ts",
+      "source_git_blob_sha": "99d12bc3e543ce23dcdf3906f946eb780ae8f8d9",
+      "export_path": "src/core/spending_envelope.ts",
+      "reason_required": "Reached by the recursive internal import closure and required at runtime or by the frozen tests."
+    }
+  ],
+  "internal_imports": [
+    {
+      "importer": "src/core/atomic_admission.ts",
+      "imported_path": "./authorization_proof_usage.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_usage.ts",
+      "source_git_blob_sha": "c173fbd37c82db49d419d17f3f78e72a399a4a1f",
+      "export_path": "src/core/authorization_proof_usage.ts",
+      "reason_required": "Static internal import required by src/core/atomic_admission.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/atomic_admission.ts",
+      "imported_path": "./authorization_proof_verification.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Static internal import required by src/core/atomic_admission.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/atomic_admission.ts",
+      "imported_path": "./authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/core/atomic_admission.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/atomic_admission.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/atomic_admission.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/atomic_admission.ts",
+      "imported_path": "./spending_envelope.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/spending_envelope.ts",
+      "source_git_blob_sha": "99d12bc3e543ce23dcdf3906f946eb780ae8f8d9",
+      "export_path": "src/core/spending_envelope.ts",
+      "reason_required": "Static internal import required by src/core/atomic_admission.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_issuance.ts",
+      "imported_path": "./authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_issuance.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_issuance.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_issuance.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_usage.ts",
+      "imported_path": "./authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_usage.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_usage.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_usage.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_verification.ts",
+      "imported_path": "./authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_verification.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof_verification.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof_verification.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/authorization_proof.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/authorization_proof.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/spending_envelope.ts",
+      "imported_path": "./authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/core/spending_envelope.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/core/spending_envelope.ts",
+      "imported_path": "./contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/core/spending_envelope.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/authorization_records.ts",
+      "imported_path": "./authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by src/poc/glory/authorization_records.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/cli.ts",
+      "imported_path": "../../core/contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/poc/glory/cli.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/cli.ts",
+      "imported_path": "./poc.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/poc.ts",
+      "source_git_blob_sha": "eb2a713a4fb3cc80eb253f6b8b8d231140b05fa8",
+      "export_path": "src/poc/glory/poc.ts",
+      "reason_required": "Static internal import required by src/poc/glory/cli.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "../../core/atomic_admission.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/atomic_admission.ts",
+      "source_git_blob_sha": "e762f95ca1d24444275a31b4e81ef1c0bca17ed5",
+      "export_path": "src/core/atomic_admission.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "../../core/authorization_proof_verification.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "../../core/authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "../../core/contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "./authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "./authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/execution_guard.ts",
+      "imported_path": "./runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by src/poc/glory/execution_guard.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "../../core/authorization_proof_verification.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "../../core/contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "./authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "./authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "./execution_guard.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "./runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/poc.ts",
+      "imported_path": "./simulated_crm.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/simulated_crm.ts",
+      "source_git_blob_sha": "5ea94a656f85a773fe6664d4a11efd3ff7dbee1a",
+      "export_path": "src/poc/glory/simulated_crm.ts",
+      "reason_required": "Static internal import required by src/poc/glory/poc.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "../../core/authorization_proof_issuance.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_issuance.ts",
+      "source_git_blob_sha": "44111daa65d305eed0bab403eb6578b320a808b8",
+      "export_path": "src/core/authorization_proof_issuance.ts",
+      "reason_required": "Static internal import required by src/poc/glory/runtime_proof_issuer.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "../../core/authorization_proof_verification.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Static internal import required by src/poc/glory/runtime_proof_issuer.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "../../core/authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by src/poc/glory/runtime_proof_issuer.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "../../core/contracts.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/contracts.ts",
+      "source_git_blob_sha": "c085955b73d8f418d506c5b445b4af0644314b1d",
+      "export_path": "src/core/contracts.ts",
+      "reason_required": "Static internal import required by src/poc/glory/runtime_proof_issuer.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "./authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by src/poc/glory/runtime_proof_issuer.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/simulated_crm.ts",
+      "imported_path": "./authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by src/poc/glory/simulated_crm.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "src/poc/glory/simulated_crm.ts",
+      "imported_path": "./execution_guard.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "reason_required": "Static internal import required by src/poc/glory/simulated_crm.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-acceptance.test.ts",
+      "imported_path": "../../../src/poc/glory/poc.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/poc.ts",
+      "source_git_blob_sha": "eb2a713a4fb3cc80eb253f6b8b8d231140b05fa8",
+      "export_path": "src/poc/glory/poc.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-acceptance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-acceptance.test.ts",
+      "imported_path": "../../../src/poc/glory/runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-acceptance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-authorization.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-authorization.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-execution-guard.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-execution-guard.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "../../../src/poc/glory/execution_guard.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-execution-guard.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "../../../src/poc/glory/runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-execution-guard.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "../../../src/core/authorization_proof_verification.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof_verification.ts",
+      "source_git_blob_sha": "a57c6411f3b9ea7d8ce2b7e3aa2ed7c8263cfa7f",
+      "export_path": "src/core/authorization_proof_verification.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-proof-issuance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "../../../src/core/authorization_proof.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/core/authorization_proof.ts",
+      "source_git_blob_sha": "9cfad4f8a91132829deeaba4b6321e40102a41f2",
+      "export_path": "src/core/authorization_proof.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-proof-issuance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-proof-issuance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-proof-issuance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "../../../src/poc/glory/runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-proof-issuance.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization_records.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization_records.ts",
+      "source_git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc",
+      "export_path": "src/poc/glory/authorization_records.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-simulated-crm.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "../../../src/poc/glory/authorization.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/authorization.ts",
+      "source_git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f",
+      "export_path": "src/poc/glory/authorization.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-simulated-crm.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "../../../src/poc/glory/execution_guard.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/execution_guard.ts",
+      "source_git_blob_sha": "6985a9e0bcc7cefa84d5bffa18118cdd47262398",
+      "export_path": "src/poc/glory/execution_guard.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-simulated-crm.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "../../../src/poc/glory/runtime_proof_issuer.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "source_git_blob_sha": "2c6f64f23c0fb2973ddd985acefb5192055cbcd1",
+      "export_path": "src/poc/glory/runtime_proof_issuer.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-simulated-crm.test.ts for the Glory implementation, tests, or CLI."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "../../../src/poc/glory/simulated_crm.js",
+      "classification": "EXPORTED_FROZEN_SOURCE",
+      "source_repository_path": "src/poc/glory/simulated_crm.ts",
+      "source_git_blob_sha": "5ea94a656f85a773fe6664d4a11efd3ff7dbee1a",
+      "export_path": "src/poc/glory/simulated_crm.ts",
+      "reason_required": "Static internal import required by tests/poc/glory/glory-simulated-crm.test.ts for the Glory implementation, tests, or CLI."
+    }
+  ],
+  "node_builtin_imports": [
+    {
+      "importer": "src/core/authorization_proof_verification.ts",
+      "imported_path": "node:crypto",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by src/core/authorization_proof_verification.ts."
+    },
+    {
+      "importer": "src/core/authorization_proof.ts",
+      "imported_path": "node:crypto",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by src/core/authorization_proof.ts."
+    },
+    {
+      "importer": "src/poc/glory/authorization_records.ts",
+      "imported_path": "node:crypto",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by src/poc/glory/authorization_records.ts."
+    },
+    {
+      "importer": "src/poc/glory/runtime_proof_issuer.ts",
+      "imported_path": "node:crypto",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by src/poc/glory/runtime_proof_issuer.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-acceptance.test.ts",
+      "imported_path": "node:assert/strict",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-acceptance.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-acceptance.test.ts",
+      "imported_path": "node:test",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-acceptance.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-authorization.test.ts",
+      "imported_path": "node:assert/strict",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-authorization.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-authorization.test.ts",
+      "imported_path": "node:test",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-authorization.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "node:assert/strict",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-execution-guard.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-execution-guard.test.ts",
+      "imported_path": "node:test",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-execution-guard.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "node:assert/strict",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-proof-issuance.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "imported_path": "node:test",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-proof-issuance.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "node:assert/strict",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-simulated-crm.test.ts."
+    },
+    {
+      "importer": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "imported_path": "node:test",
+      "classification": "NODE_BUILTIN",
+      "reason_required": "Node built-in imported by tests/poc/glory/glory-simulated-crm.test.ts."
+    }
+  ],
+  "npm_dependencies": {
+    "direct": [
+      {
+        "package": "tsx",
+        "version": "4.21.0",
+        "classification": "NPM_DEPENDENCY",
+        "reason_required": "Runs the frozen TypeScript CLI and Node test files without modifying their bytes."
+      }
+    ],
+    "locked_package_entries": [
+      {
+        "package_path": "node_modules/@esbuild/aix-ppc64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/android-arm",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/android-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/android-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/darwin-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/darwin-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/freebsd-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/freebsd-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-arm",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-ia32",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-loong64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-mips64el",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-ppc64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-riscv64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-s390x",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/linux-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/netbsd-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/netbsd-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/openbsd-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/openbsd-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/openharmony-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/sunos-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/win32-arm64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/win32-ia32",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/@esbuild/win32-x64",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/esbuild",
+        "version": "0.27.7",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/fsevents",
+        "version": "2.3.3",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/resolve-pkg-maps",
+        "version": "1.0.0",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/tsx",
+        "version": "4.21.0",
+        "classification": "NPM_DEPENDENCY"
+      },
+      {
+        "package_path": "node_modules/tsx/node_modules/get-tsconfig",
+        "version": "4.13.7",
+        "classification": "NPM_DEPENDENCY"
+      }
+    ]
+  },
+  "not_required": [
+    {
+      "source_repository_path": "package.json",
+      "classification": "NOT_REQUIRED",
+      "reason": "Private root metadata contains unrelated scripts and dependencies; replaced by disclosed export-only metadata."
+    },
+    {
+      "source_repository_path": "package-lock.json",
+      "classification": "NOT_REQUIRED",
+      "reason": "Private root lock contains unrelated dependencies; replaced by a minimal export-only lock preserving required frozen versions."
+    },
+    {
+      "source_repository_path": "tsconfig.json",
+      "classification": "NOT_REQUIRED",
+      "reason": "Private root configuration is replaced by a bounded export-only TypeScript configuration."
+    },
+    {
+      "source_repository_path": "docs/poc/glory/GLORY_V1_2_EVIDENCE.json",
+      "classification": "NOT_REQUIRED",
+      "reason": "Pre-build private-repository evidence and unrelated branch/test inventory are not required to execute or falsify RC1."
+    },
+    {
+      "source_repository_path": "docs/poc/glory/GLORY_V1_2_MINIMUM_BUILD.md",
+      "classification": "NOT_REQUIRED",
+      "reason": "Pre-implementation planning material is not an executable RC1 dependency; the frozen code and public review scope govern."
+    },
+    {
+      "source_repository_path": "docs/poc/glory/GLORY_V1_2_REALITY_MAP.md",
+      "classification": "NOT_REQUIRED",
+      "reason": "Pre-implementation private architecture survey contains unrelated internal paths and is not required to execute or falsify RC1."
+    }
+  ],
+  "unresolved": []
+}
