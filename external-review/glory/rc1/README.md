@@ -1,6 +1,6 @@
 # Glory CRM Discount POC V1.2 — External Review RC1
 
-Status: **FROZEN REVIEW CANDIDATE — ACCESS PACKAGE PREPARATION**
+Status: **FROZEN REVIEW CANDIDATE — EXECUTABLE EXPORT READY**
 
 This directory identifies the exact RC1 baseline intended for independent external review.
 
@@ -30,13 +30,26 @@ Only material required to review RC1 may be exported here. The private engineeri
 
 ## Current package status
 
-The review identity and scope are published here first.
+The bounded executable package is published at [`executable/`](./executable/).
 
-Executable RC1 material will be added only after dependency-closure and disclosure review confirms that the exported package contains the minimum files necessary for reproducible review and no unrelated private engineering material.
+The frozen executable package commit is:
 
-Until that export is complete:
+`19b904f533604921ae9abbcad654e975e719218c`
 
-**EXTERNAL EXECUTABLE PACKAGE READY = NO**
+The unsigned annotated public freeze tag is:
+
+`glory-poc-v1.2-external-review-rc1-executable-export`
+
+Its tag object is `f6688c70ceb893d5ea03db60d914bea84800001f`
+and it resolves exactly to the executable package commit above.
+
+**EXECUTABLE_EXPORT_READY = YES**
+
+**DEPENDENCY_CLOSURE = VERIFIED**
+
+**REPRODUCIBILITY = PASS**
+
+**RC1_SEMANTICS_MODIFIED = NO**
 
 **FROZEN SOURCE BASELINE IDENTIFIED = YES**
 
@@ -45,3 +58,6 @@ Until that export is complete:
 **SOURCE COMMIT VERIFIED = YES**
 
 **V1.2 BOUNDARY CHANGED = NO**
+
+These statuses are publication-gate results, not an external-review PASS.
+Glory's falsification review has not yet occurred.
