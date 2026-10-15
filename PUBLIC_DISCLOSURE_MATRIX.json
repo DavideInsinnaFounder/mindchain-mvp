@@ -1,0 +1,217 @@
+{
+  "identity": "VECTORRAIL_GLORY_RC1_SANITIZED_R1",
+  "scope": "Bounded CRM public reference; no private repository dependencies",
+  "unknown_files": "REJECT",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_METADATA",
+      "reason": "Disable text conversion so Git stores the manifest bytes exactly."
+    },
+    {
+      "path": ".gitignore",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_METADATA",
+      "reason": "Exclude installed dependencies and local npm debug logs."
+    },
+    {
+      "path": "LICENSE.md",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_RIGHTS_NOTICE",
+      "reason": "Retain rights to first-party material and identify third-party licensing."
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_INTEGRITY_METADATA",
+      "reason": "Exact sanitized payload hashes, sizes and Git blob IDs; no private inputs."
+    },
+    {
+      "path": "PUBLIC_DISCLOSURE_MATRIX.json",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_DISCLOSURE_RECORD",
+      "reason": "Complete public file allowlist and disclosure decisions only."
+    },
+    {
+      "path": "README.md",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_SANITIZED",
+      "reason": "Product-level Machine Economy and Governance pillars, bounded demo instructions and limits."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_REVIEW_INSTRUCTIONS",
+      "reason": "Reproduction commands, suite scope, checksum authority and validation limits."
+    },
+    {
+      "path": "SHA256SUMS",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_INTEGRITY_METADATA",
+      "reason": "SHA-256 checksums for the exact release files."
+    },
+    {
+      "path": "package-lock.json",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_SANITIZED",
+      "reason": "Pinned public-registry runner dependencies, no private registry or vendored code."
+    },
+    {
+      "path": "package.json",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_SANITIZED",
+      "reason": "Public review identity, minimal runner scripts and npm publication guard."
+    },
+    {
+      "path": "src/poc/glory/authorization.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Synthetic bounded CRM intent and delegation policy only."
+    },
+    {
+      "path": "src/poc/glory/authorization_records.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Immutable in-memory record of a demo-authorized action."
+    },
+    {
+      "path": "src/poc/glory/cli.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_IMPORTS_ONLY",
+      "reason": "Bounded review CLI with only reduced review imports."
+    },
+    {
+      "path": "src/poc/glory/execution_guard.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_IMPORTS_ONLY",
+      "reason": "Exact CRM action binding, proof check and local one-use gate."
+    },
+    {
+      "path": "src/poc/glory/poc.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_IMPORTS_ONLY",
+      "reason": "Composition of synthetic fixtures and local simulator."
+    },
+    {
+      "path": "src/poc/glory/runtime_proof_issuer.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_IMPORTS_ONLY",
+      "reason": "Ephemeral Ed25519 demo issuer; no persisted private key."
+    },
+    {
+      "path": "src/poc/glory/simulated_crm.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "In-memory CRM effects and independent synthetic receipts."
+    },
+    {
+      "path": "src/review/authorization_proof.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_REDUCED_IMPLEMENTATION_REVIEWED",
+      "reason": "Only exact/exact/single_use/none identity and structural validation."
+    },
+    {
+      "path": "src/review/authorization_proof_issuance.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_REDUCED_IMPLEMENTATION_REVIEWED",
+      "reason": "Bounded proof envelope and decision provenance binding."
+    },
+    {
+      "path": "src/review/authorization_proof_verification.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_REDUCED_IMPLEMENTATION_REVIEWED",
+      "reason": "Local Ed25519 verification for the supported demo profile."
+    },
+    {
+      "path": "src/review/contracts.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_REDUCED_PUBLIC_CONTRACT_REVIEWED",
+      "reason": "Only proof types required by the bounded CRM; economic scope none."
+    },
+    {
+      "path": "src/review/single_use_admission.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_REVIEW_ONLY_REPLACEMENT_REVIEWED",
+      "reason": "Synchronous process-local single-use check, without persistence or economic machinery."
+    },
+    {
+      "path": "tests/containment/boundary.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "RC1_PUBLIC_REGRESSIONS_REVIEWED",
+      "reason": "Six local boundary regressions including concurrent replay and timeout."
+    },
+    {
+      "path": "tests/poc/glory/glory-acceptance.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Original bounded CRM acceptance invariants using synthetic fixtures."
+    },
+    {
+      "path": "tests/poc/glory/glory-authorization.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Original demo intent and delegation tests."
+    },
+    {
+      "path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Original action substitution and replay refusal tests."
+    },
+    {
+      "path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_REDUCE_IMPORTS_ONLY",
+      "reason": "Original proof test bodies with reduced review imports."
+    },
+    {
+      "path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Original simulator receipt and indeterminate-outcome tests."
+    },
+    {
+      "path": "tsconfig.json",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "PREVIOUS_PUBLIC_SAFE_EXACT_BYTES",
+      "reason": "Bounded TypeScript source and test configuration."
+    },
+    {
+      "path": "verify-package.mjs",
+      "classification": "PUBLIC_SAFE",
+      "approved_for_publication": true,
+      "approval_basis": "NEW_PUBLIC_INTEGRITY_VERIFIER",
+      "reason": "Self-contained checksum, inventory and public dependency verifier."
+    }
+  ]
+}

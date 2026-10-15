@@ -1,0 +1,184 @@
+{
+  "identity": "VECTORRAIL_GLORY_RC1_SANITIZED_R1",
+  "authority": "EXACT_RELEASE_FILE_BYTES_AND_GIT_BLOBS",
+  "private_inputs": [],
+  "source_basis": "Previously audited contained RC1 derivative; historical evidence retained privately",
+  "supported_profile": {
+    "provider": "exact",
+    "execution": "exact",
+    "usage": "single_use",
+    "economic_scope": "none"
+  },
+  "scope": "Process-local simulated CRM only",
+  "file_count": 30,
+  "inventory": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "git_blob_sha": "fa1385d99a319b43c06f5309d1aae9fdd3adea46"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 31,
+      "sha256": "7549d5e65a8901fc61def320ab0ddbb65642e6148cdaaa8aecb37817951fa1ab",
+      "git_blob_sha": "04a8b62dccd02b6adf8a801f58f32f5eac2b212c"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 574,
+      "sha256": "da1619dda6565315192a022c2191e4579ec97d232f46ab2551213c446b15938d",
+      "git_blob_sha": "7bb79c3d3360dc1949c071c78a4973390960fcbf"
+    },
+    {
+      "path": "PUBLIC_DISCLOSURE_MATRIX.json",
+      "bytes": 8531,
+      "sha256": "7fbbab0775242103b618897357b42d8d06fdffc33bae1922dde6cdc8d612d357",
+      "git_blob_sha": "cb14c6af52d5dd0c6f41dd565659358cb03e59bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3090,
+      "sha256": "cd69e95a08c37822f1eec88c494b7ef86a819023d3475420999478f0d0e88ab9",
+      "git_blob_sha": "9bd851df1148d61e0a2250ada9418afbf5bdd411"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 2811,
+      "sha256": "bea71e2b0285fe7e23a2edd8ed31db50d34b1d377ff9bcdb71930f4aa1c3c4a7",
+      "git_blob_sha": "27a6300586c022c9fc9ffe4fc6495b99f1d01f50"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 16580,
+      "sha256": "ea7b8ebc3e54dd8e5ad894fd1568f31f176f314d36c55765e3b01bbb00bffc66",
+      "git_blob_sha": "c47a411f8ecd8aa9ea40be78b25ce99f972d3e2d"
+    },
+    {
+      "path": "package.json",
+      "bytes": 720,
+      "sha256": "29f791b8ddfd0557fd2847f3bfdfe97fd75b1d463478d3273cb444f51be419f1",
+      "git_blob_sha": "866a24521933a605054876a27271623febe01a4f"
+    },
+    {
+      "path": "src/poc/glory/authorization.ts",
+      "bytes": 9776,
+      "sha256": "883e3e00794d83e07b872b0189514f82ed273a7cf41f4967a7faacc1bc26c2ec",
+      "git_blob_sha": "9cf14cd91b76e6b61b9749f5b48296ad857d727f"
+    },
+    {
+      "path": "src/poc/glory/authorization_records.ts",
+      "bytes": 3926,
+      "sha256": "4c0b84e28afa502721e9c0d52ddcb1042080bdbfea1c3104693c156d8b70c90f",
+      "git_blob_sha": "6284e7595fadc342975084a881279e0fe7e1adcc"
+    },
+    {
+      "path": "src/poc/glory/cli.ts",
+      "bytes": 6329,
+      "sha256": "c59f9ff1683de3e4c30dd73dc6c673e46cc7faadf8508f9203ca9da362b9415b",
+      "git_blob_sha": "0f8718033dda69ba12acf0f28201386d49a9709f"
+    },
+    {
+      "path": "src/poc/glory/execution_guard.ts",
+      "bytes": 14099,
+      "sha256": "1d75b965bb3834a65478ac660ebb0ceea70159e8a667f6adb1634f57d1441074",
+      "git_blob_sha": "d60bb16ed9a69a81b26b3ecaaa168812b4247570"
+    },
+    {
+      "path": "src/poc/glory/poc.ts",
+      "bytes": 13538,
+      "sha256": "5f71c454db5d097c3a15ee1510a84aaf9e8dc5379a24baf0adc52e7755028ac5",
+      "git_blob_sha": "2a0b5e68fea2c2ab942de3ebbd83696cfcad9a62"
+    },
+    {
+      "path": "src/poc/glory/runtime_proof_issuer.ts",
+      "bytes": 9574,
+      "sha256": "e65e62e1a64368f56df2ff1875c7d7b265ce10ee0f45bd9bd6cc7ceaba3663d4",
+      "git_blob_sha": "285f0395a8ed43e889ac72ff43f68c34f57402d0"
+    },
+    {
+      "path": "src/poc/glory/simulated_crm.ts",
+      "bytes": 7417,
+      "sha256": "bb2bd986463b2ec88729f05b4c3668e9028afea7da76ea830b16c0e7d147983d",
+      "git_blob_sha": "5ea94a656f85a773fe6664d4a11efd3ff7dbee1a"
+    },
+    {
+      "path": "src/review/authorization_proof.ts",
+      "bytes": 25462,
+      "sha256": "1997a1d4076db8e1ba9bd5e7c413ec8d461ec17385fd582cceafa3ead412f123",
+      "git_blob_sha": "acd50e48f4bb93b39129ef215abdad75db3ee274"
+    },
+    {
+      "path": "src/review/authorization_proof_issuance.ts",
+      "bytes": 4839,
+      "sha256": "59ffbfe5ff5a10f21403e50493120cd14e6108ff72ea3e7dfeeb2741345a488c",
+      "git_blob_sha": "9118f1276fad58a2dd65c6329ef39af2515db541"
+    },
+    {
+      "path": "src/review/authorization_proof_verification.ts",
+      "bytes": 13835,
+      "sha256": "761f48325734ceb257b6bac08acbc2a0c9fa252d16fd5aa27b3e73d4904fe6af",
+      "git_blob_sha": "78ff23d282b095de752b21086967eb9ede734906"
+    },
+    {
+      "path": "src/review/contracts.ts",
+      "bytes": 2453,
+      "sha256": "c2af922f77b586cc5e373adcda694980853ad56ee3d83349ea786a7a0d6e0c52",
+      "git_blob_sha": "6a198ea599f5593438c8933135ec13e50809f2d2"
+    },
+    {
+      "path": "src/review/single_use_admission.ts",
+      "bytes": 3642,
+      "sha256": "6fcc5cad859187b8626e2361634f831172fbe04060e1e472cec566329472bfed",
+      "git_blob_sha": "fc32d5df3e7337d66085d326018aa38d3e7fcb2a"
+    },
+    {
+      "path": "tests/containment/boundary.test.ts",
+      "bytes": 3109,
+      "sha256": "b21fd78cf6f0148c4989fd0b3b5faf29730b74ba231e87d22973bff199a2f534",
+      "git_blob_sha": "a42bd1a54386e0b10411ccb72e402bb2ea4e1130"
+    },
+    {
+      "path": "tests/poc/glory/glory-acceptance.test.ts",
+      "bytes": 9721,
+      "sha256": "f95ad5d17f5e29d3abdc13267bc2d961db30c0be039534310a25782f8c261872",
+      "git_blob_sha": "0d5ad6683379a27bfc3ee379af666655dae35d00"
+    },
+    {
+      "path": "tests/poc/glory/glory-authorization.test.ts",
+      "bytes": 6274,
+      "sha256": "834aa2846bb9a3a2b04e47d33686e92899f3bf2cf0d0a5aa5fc31a6ee367f53e",
+      "git_blob_sha": "bdde1985a2ff9ad2d2fe452d494415c330cf46fb"
+    },
+    {
+      "path": "tests/poc/glory/glory-execution-guard.test.ts",
+      "bytes": 6414,
+      "sha256": "e740ac659ddf01e7d186c5eb1f360f2052f90ad54576e13b7303576d64958317",
+      "git_blob_sha": "9ff6aa447bee1e0b607dc00be5dccd0c520be63b"
+    },
+    {
+      "path": "tests/poc/glory/glory-proof-issuance.test.ts",
+      "bytes": 6244,
+      "sha256": "ae6bfbeddb2126873bdbc921d7a06214f68adc03ace9e7a7f4fd63ffee84872a",
+      "git_blob_sha": "3ab533b1ad3af95d545ebe7577edcf29a81750e6"
+    },
+    {
+      "path": "tests/poc/glory/glory-simulated-crm.test.ts",
+      "bytes": 5436,
+      "sha256": "4e3bc6c03fd9bf896bb167dc0a494210ddce9854dd62fef8a03d9b8a8c761d1c",
+      "git_blob_sha": "44e8f5522d121776c3e2b6e2798a555786f82484"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 280,
+      "sha256": "3a1b76216e456862676e6c56be7ea54a825c15b2ed41c9ba79187c3ecdf65860",
+      "git_blob_sha": "41db7a4c6148e07815e706ee18a16482e5cf21b7"
+    },
+    {
+      "path": "verify-package.mjs",
+      "bytes": 3997,
+      "sha256": "8d43adc422a9824b6ee27ce7aa7379eac3e9964268a4ebe584a73758c22847ab",
+      "git_blob_sha": "22f0ebef122bb77203be1f30fe247d2759cc5fe9"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vectorrail-glory-rc1-public-reference",
+  "version": "1.2.0-rc1-public.1",
+  "private": true,
+  "description": "VectorRail bounded CRM governance demonstration; sanitized public RC1",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test:glory": "node --import tsx --test tests/poc/glory/*.test.ts",
+    "poc:glory": "node --import tsx src/poc/glory/cli.ts",
+    "test:containment": "node --import tsx --test tests/containment/*.test.ts",
+    "verify:package": "node verify-package.mjs"
+  },
+  "devDependencies": {
+    "tsx": "4.21.0"
+  },
+  "overrides": {
+    "esbuild": "0.28.1",
+    "get-tsconfig": "4.13.7",
+    "resolve-pkg-maps": "1.0.0"
+  },
+  "license": "UNLICENSED"
+}
